@@ -1,0 +1,31 @@
+{
+  "name": "bim-gpt2",
+  "version": "1.0.0",
+  "description": "an API for a cupcake-recipe generating bot (built on OpenAi's GPT-2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bimStart": "nodemon src/server/server.js -w src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lail-lei/BIM-GPT2.git"
+  },
+  "author": "lail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lail-lei/BIM-GPT2/issues"
+  },
+  "homepage": "https://github.com/lail-lei/BIM-GPT2#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.13.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
